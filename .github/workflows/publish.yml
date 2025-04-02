@@ -22,7 +22,8 @@ jobs:
 
       - name: Install Poetry
         run: |
-          curl -sSL https://install.python-poetry.org | python3 -
+          python -m pip install poetry
+        shell: bash
 
       - name: Install dependencies
         run: poetry install
@@ -76,7 +77,8 @@ jobs:
 
       - name: Install Poetry
         run: |
-          curl -sSL https://install.python-poetry.org | python3 -
+          python -m pip install poetry
+        shell: bash
 
       - name: Build sdist
         run: poetry build --format sdist
@@ -99,7 +101,8 @@ jobs:
 
       - name: Install Poetry
         run: |
-          curl -sSL https://install.python-poetry.org | python3 -
+          python -m pip install poetry
+        shell: bash
 
       - name: Configure Poetry
         run: |
