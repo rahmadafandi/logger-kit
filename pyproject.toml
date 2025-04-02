@@ -6,7 +6,7 @@ authors = [
     {name = "Rahmad Afandi",email = "rahmadafandiii@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.9, <4.0"
 dependencies = [
     "python-json-logger (>=3.3.0,<4.0.0)",
     "aiofiles (>=24.1.0,<25.0.0)",
