@@ -38,6 +38,7 @@ class BaseLogger:
         formatter = JsonFormatter(
             fmt="%(asctime)s %(name)s %(levelname)s %(message)s",
             json_ensure_ascii=False,
+            rename_fields={"message": "@message"},
         )
 
         # Create console handler
