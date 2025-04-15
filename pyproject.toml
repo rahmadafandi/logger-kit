@@ -1,6 +1,6 @@
 [project]
 name = "logger-kit"
-version = "0.0.3"
+version = "0.0.4"
 description = "A high-performance, feature-rich Python logging library with JSON formatting, file rotation, and masking capabilities for sensitive data"
 authors = [
     {name = "Rahmad Afandi",email = "rahmadafandiii@gmail.com"}
